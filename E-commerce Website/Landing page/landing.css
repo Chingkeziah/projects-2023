@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links>ul, li {
+    display: flex;
+    flex-direction: row; 
+    list-style-type: none;
+    justify-content: center;
+    padding: 0 30px 0 30px;
+    font-size: 20px;
+}
+li>a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: purple;
+    text-decoration: underline;
+} 
+h1:first-of-type {
+    color: rgb(49, 49, 243);
+    font-size: 50px;
+    line-height: 5px;
+}
+section:first-of-type {
+    background-image: url("");
+    background-size: contain;
+    min-width: 1340px;
+    min-height: 400px;
+}
+
