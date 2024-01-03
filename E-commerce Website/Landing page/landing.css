@@ -32,10 +32,18 @@ section:first-of-type {
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    margin: 50px 0 0 20px;
     
 }
 .products > div, img {
     width: 410px;
     height: 350px;
+    border: 1px solid gray;
+}
+.price_quantity>div:nth-child(2) {
+    float: right;
+    margin-top: -100px;
+}
+img+h3 {
+    text-align: center;
 }
