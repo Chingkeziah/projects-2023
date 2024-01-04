@@ -15,19 +15,26 @@ li>a {
     color: black;
 }
 a:hover {
-    color: purple;
+    color: rgb(228, 19, 228);
     text-decoration: underline;
 } 
+section:first-of-type {
+    background-image: url("woman\ cleaning.jpg");
+    background-size: cover;
+    min-width: 1340px;
+    min-height: 600px;
+}
 h1:first-of-type {
     color: rgb(49, 49, 243);
     font-size: 50px;
+    padding: 100px 0 0 50px;
     line-height: 5px;
 }
-section:first-of-type {
-    background-image: url("woman\ cleaning.jpg");
-    background-size: contain;
-    min-width: 1340px;
-    min-height: 400px;
+h4:first-of-type {
+    width: 500px;
+    margin: 300px 0 0 50px;
+    font-weight: normal;
+    
 }
 .products {
     display: grid;
@@ -46,4 +53,17 @@ section:first-of-type {
 }
 img+h3 {
     text-align: center;
+}
+@media screen and (max-width: 700px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+    header > * {
+        max-width: 700vw;
+
+    }
+    section > * {
+        max-width: 700vw;
+    }
 }
