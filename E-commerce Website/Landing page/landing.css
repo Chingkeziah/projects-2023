@@ -54,7 +54,14 @@ h4:first-of-type {
 img+h3 {
     text-align: center;
 }
-@media screen and (max-width: 700px) {
+.products>.product {
+    margin-top: 200px;
+}
+/* .footer {
+    height: 100px;
+    background-color: aquamarine;
+} */
+/* @media screen and (max-width: 700px) {
     .products {
         display: flex;
         flex-direction: column;
@@ -66,4 +73,4 @@ img+h3 {
     section > * {
         max-width: 700vw;
     }
-}
+} */
