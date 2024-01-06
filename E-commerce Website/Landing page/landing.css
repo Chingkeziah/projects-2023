@@ -57,20 +57,8 @@ img+h3 {
 .products>.product {
     margin-top: 200px;
 }
-/* .footer {
+.footer {
     height: 100px;
-    background-color: aquamarine;
-} */
-/* @media screen and (max-width: 700px) {
-    .products {
-        display: flex;
-        flex-direction: column;
-    }
-    header > * {
-        max-width: 700vw;
-
-    }
-    section > * {
-        max-width: 700vw;
-    }
-} */
+    background-color: palevioletred;
+    margin: 200px 0 0 0;
+}
