@@ -1,0 +1,79 @@
+  header{
+            font-weight: 800;
+            font-size: x-large;
+
+        }
+    .words{
+        position: relative;
+        float: left;
+    }   
+    .amount{
+        display: block;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        width: 100px;
+    }   
+    .pay{
+        background-color: grey;
+        color: whitesmoke;
+        display: block;
+        text-align: start;
+        padding: 5px;
+    }  
+    .forms{
+        padding: 4px;
+        text-align: center;
+    }
+    .gua>b {
+        color: blue;
+    }
+    .gua{
+        display: block;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        width: 100px;
+        margin-left: 550px;
+        border: 1px solid black;
+    }
+    .button{
+        position: relative;
+        float: right;
+        margin-right: 610px;
+        font-size: 20px;
+        height:max-content;
+    }
+    .warning>b {
+        color: red;
+        font-size: 30px; 
+        text-align: center;
+    }
+    .personal_details>p:first-of-type {
+        color: red;
+    }
+    footer>p:first-of-type {
+        color: red;
+        border: 1px solid red; 
+        height: 25px; 
+        width: 150px; 
+        position: relative; 
+        float: left; 
+        padding: 6PX;
+    }
+    footer>button:first-of-type {
+        background-color: red;
+    }
+    a{
+        text-decoration: none;
+    }
+    .order_review{
+        position: RELATIVE;
+        FLOAT: RIGHT;
+    }
+    FORM{
+        text-align: center;
+    }
+    .order_review>b {
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }

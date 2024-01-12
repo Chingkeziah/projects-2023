@@ -1,132 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make Payment </title>
-    <style>
-        header{
-            font-weight: 800;
-            font-size: x-large;
-
-        }
-    .words{
-        position: relative;
-        float: left;
-    }   
-    .amount{
-        display: block;
-        float: right;
-        overflow: hidden;
-        position: relative;
-        width: 100px;
-    }   
-    #pay{
-        background-color: grey;
-        color: whitesmoke;
-        display: block;
-        text-align: start;
-        padding: 5px;
-    }  
-    .forms{
-        padding: 4px;
-        text-align: center;
-    }
-    #gua{
-        display: block;
-        float: left;
-        overflow: hidden;
-        position: relative;
-        width: 100px;
-        margin-left: 550px;
-        border: 1px solid black;
-    }
-    #button{
-        position: relative;
-        float: right;
-        margin-right: 610px;
-        font-size: 20px;
-        height:max-content;
-    }
-    a{
-        text-decoration: none;
-    }
-    .LASTB{
-        position: RELATIVE;
-        FLOAT: RIGHT;
-    }
-    FORM{
-        text-align: center;
-    }
-    </style>
+    <link rel="stylesheet" href="payment.css">
 </head>
 <body>
     <header>
         <div class="words">
-        Total cost of merchandise:
-        <p>Total cost of shipping</p>
-        <p>Est.Tax:</p>
-        <p>Grand Total:</p>
-    </div>
-    <div class="amount">
-        $15.00
-        <p>$5.95</p>
-        <p>$1.79</p>
-        <p>$22.74</p>
-    </div>
+            Total cost of merchandise:
+            <p>Total cost of shipping</p>
+            <p>Est.Tax:</p>
+            <p>Grand Total:</p>
+        </div>
+        <div class="amount">
+            $15.00
+            <p>$5.95</p>
+            <p>$1.79</p>
+            <p>$22.74</p>
+        </div>
     </header>
     <br><BR><BR><BR><BR><BR><BR></BR><BR></BR><BR></BR><BR></BR>
- <section id="pay">
-   <p>SELECT PAYMENT METHOD</p>
- </section>
- <forms>
-     <div class="forms">
-     <input type="radio", name="VISA"><B>VISA</B>
-     <br>
-     <input type="radio", name="AMEX"><B>AMEX</B>
-     <br>
-     <input type="radio", name="Master Card"><B>Master Card</B>
-     <br>
-     <input type="radio", name="Discover"><B>Discover</B>
-     <br><br><br><br>
-     <input type="radio", name="Paypal"><B>Paypal</B>
+    <section class="pay">
+    <p>SELECT PAYMENT METHOD</p>
+    </section>
+    <forms>
+        <div class="forms">
+        <input type="radio", name="VISA"><b>VISA</b>
+        <br>
+        <input type="radio", name="AMEX"><b>AMEX</b>
+        <br>
+        <input type="radio", name="Master Card"><b>Master Card</b>
+        <br>
+        <input type="radio", name="Discover"><b>Discover</b>
+        <br><br><br><br>
+        <input type="radio", name="Paypal"><b>Paypal</b>
+        </div>
+    </forms>
+    <div class="gua">
+        Fraud<br>
+        Protection<br>
+        Guaranteed<br>
+        <b>Click Here</b>
     </div>
- </forms>
- <div id="gua">
-     Fraud<br>
-     Protection<br>
-     Guaranteed<br>
-     <b style="color: blue">Click Here</b>
-</div>
-      <div id="button">
-      <button>
-          <a href="Table forms.html">
-       <p>AMERICAN<BR>
-        EXPRESS </p>
-     </a>
-    </button>
+        <div class="button">
+            <button>
+                <a href="">
+                <p>AMERICAN<BR>EXPRESS </p>
+                </a>
+            </button>
     </div>
-    <b style="color: red; font-size: 30px; text-align: center;">Please note: We are unable to accept<br> VISA or Master Card Gift Cards</b>
-    <BR></BR><BR></BR><BR></BR><BR></BR><BR>
-    <form>
+    <div class="warning">
+        <b>Please note: We are unable to accept<br> VISA or Master Card Gift Cards</b>
+        <BR></BR><BR></BR><BR></BR><BR></BR><BR>
+    </div>
+    <form class="personal_details">
         Card Holder* <input type="text"><br><BR><BR>
         Account  Number <input type="number"><br>
-        <p style="color: red">Please do not include any blanks or spaces that may appear between numbers on your credit card</p><br>
-        CVV* <input type="text"><a href="Table forms.html">CVV Information</a><br><br><br>
+        <p>Please do not include any blanks or spaces that may appear between numbers on your credit card</p><br>
+        CVV* <input type="text"><a href="">CVV Information</a><br><br><br>
         Expiration* <input type="month", placeholder="Mar">
         <input type="year", placeholder="2013">
     </form>
         <br><br><br><br>
         <hr>
         <footer>
-            <a href="./../Landing page/landing.html"><p style="color: red; border: 1px solid red; height: 25px; width: 150px; position: relative; float: left; PADDING: 6PX;">Return To Shopping</p></a>
-            <DIV CLASS="LASTB">
-            <B STYLE="font-family:Verdana, Geneva, Tahoma, sans-serif;">PLEASE REVIEW YOUR ORDER</B> <BR>
-            Your order will be processed immediately. Adjustments<br>
-            or changes cannot be made once your order is submitted
-            <BR><BR>
-            <button STYLE="background-color: RED;">
-                COMPLETE PURCHASE
-            </button>
-        </DIV>
+            <a href="./../Landing page/landing.html">
+                <p>Return To Shopping</p>
+            </a>
+            <div class="order_review">
+                <b>PLEASE REVIEW YOUR ORDER</b> <br>
+                Your order will be processed immediately. Adjustments<br>
+                or changes cannot be made once your order is submitted
+                <br><br>
+                <button>
+                    COMPLETE PURCHASE
+                </button>
+            </div>
         </footer>
     </form>
 </body>
