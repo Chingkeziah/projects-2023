@@ -18,7 +18,7 @@ a:hover {
     text-decoration: underline;
 } 
 section:first-of-type {
-    background-image: url("woman\ cleaning.jpg");
+    background-image: url("./../Images/woman\ cleaning.jpg");
     background-size: cover;
     min-width: 1340px;
     min-height: 600px;
@@ -90,12 +90,12 @@ footer>.second_part {
     font-weight: bold;
     font-size: 20px;
 }
-.links {
+.second_part>.links {
     display: grid;
     grid-template-columns: repeat(4, 4fr);
     gap: 5px;
 }
-.links, li > a {
+.second_part>.links, li > a {
     color: black;
     text-decoration: none;
 }
